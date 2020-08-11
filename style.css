@@ -1,11 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Lemonada:wght@300;400;500;600;700&display=swap');
+/* 
+font-family: 'Chilanka', cursive;
+font-family: 'Lemonada', cursive; 
+*/
+
+/* Learn more:
+https://cdnjs.com/libraries/font-awesome 
+https://fontawesome.com/
+*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css);
+
 /* CSS files add styling rules to your content */
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+/*   margin: 2em; */
+  background-color: #eee;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: blue !important;
+}
+p {
+  font-family: Times;
+}
+.customfont {
+  font-family: 'Lemonada', cursive; 
+  font-weight: 300;
 }

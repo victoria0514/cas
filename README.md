@@ -525,7 +525,7 @@ Terminal **Git** comments
 git branch
 git add .
 git commit -m "explain what changes you made as the reasoning for commiting to Github repo"
-git remote add origin https://github.com/<username>/agvep.git
+git remote add origin https://github.com/<username>/cas.git
 git push origin master
 ```
 

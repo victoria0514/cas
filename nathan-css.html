@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Template</title>
+    <!-- Internal CSS -->
+    <style type="text/css">
+      /*
+      selector {
+        property : value ;
+        property : value ;
+        property : value ;
+      }
+      */
+      @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+                  body {
+                    background-color: orange;
+/*                     font-family: Times, serif; */
+                    font-family: 'Lemonada', cursive; 
+                    color: #444;
+                    font-size: 1em;
+                  }
+                  a, a:link, a:visited {
+                    text-decoration: none;
+                    color: black;
+
+                  }
+                  a:hover {
+                    text-decoration: underline;
+                    color: yellow;
+                  }
+                  header {
+                    background-color: #444;
+                    text-align: center;
+                    color: #fff; /* white */
+                  }
+                  nav ul li {
+                    display: inline;
+                    font-family: Tahoma, Geneva, sans-serif;
+                  }
+                  nav ul li:first-child {
+                    border: 2px solid red;
+                  }
+                    nav ul li:last-child {
+                    border: 2px solid purple;
+            }
+               nav ul li a {
+                    color: green;
+                  }
+                  /*       class="hero"
+                  .classname {
+                  property : value ;
+                  }
+                  */
+                        .hero {
+                    background-image: url(https://picsum.photos/1024);
+                          linear-gradient(180deg,rgba(0,0,0.3), rgba(0,0,0.5),
+                      url(https://picsum.photos/600); 
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                          background-position: bottom;
+                    display: flex;
+                    flex-flow: column;
+                    text-align: center;
+                    height: 50vh;
+                    color: yellow;
+                    min-height: 500px;
+                  }
+    </style>
+      
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HTML Element Tags -->
+    <header>Welcome</header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+    <div
+      class="hero"
+      style="background-image: url(https://picsum.photos/1024); display:flex; Flex-flow: column;text-align: center; height: 50vh; color: yellow; min-height: 500px;"
+    >
+      <h1 clas="customfont" style="color: red;">
+        Hello world!
+      </h1>
+      <p>I am a <span style="display: block; color: pink;">hero</span>!</p>
+    </div>
+    <!--.hero-->
+
+    <div
+      style="display: flex; justify-content: space-between; align-items: center; border: 5px solid purple; color:blue;"
+    >
+      <aside style="background-color:aqua;">SideBarContainer</aside>
+      <main
+        style="background-image: url(https://cdn.glitch.com/3558c395-60c9-4db2-a449-73257937c4b4%2Fpexels-canva-studio-3153198.jpg?v=1597080777662);"
+      >
+        Content
+      </main>
+    </div>
+    <div>
+      div2
+    </div>
+    <img src="https://picsum.photos/200" alt="placeholder" />
+    <footer id="footer">&copy; 2020 YCTF &#9994; <i class="fab fa-twitter"></i> </footer>
+  </body>
+</html>
